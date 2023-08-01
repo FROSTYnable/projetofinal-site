@@ -1,0 +1,44 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    width: 1360px;
+}
+
+hr {
+     border: solid;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+h1 {
+  text-align: center;  
+}
+
+.homeinfo1, .homeinfo2, .homeinfo3, .homeinfo4, .homeinfo5, .homeinfo6 {
+    display: flex;
+    width: 1360px;
+    justify-content: space-around;
+}
+
+
+.homeinfoimgdir {
+
+}
+
+.homeinfoimgsize {
+    width: 250px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    /* Adicionando a linha acima do rodapé */
+    border-top: 1px solid #ccc;
+}
